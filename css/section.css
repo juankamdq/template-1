@@ -1,0 +1,51 @@
+#sections {
+  float: right;
+  width: 75%;
+  font-family: Arial, Helvetica, sans-serif;
+  margin-right: 20px;
+}
+
+#sections .titulo {
+  font-family: "fajala";
+  font-size: 24px;
+  font-weight: normal;
+  text-align: center;
+  letter-spacing: 1px;
+  margin-top: -20px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+#sections section {
+  margin-top: 40px;
+  background-color: white;
+  padding: 20px;
+  border: 1px solid #ccc;
+  box-shadow: 0px 0px 4px #c9c9c9;
+  color: #333333;
+  font-size: 16px;
+  /* Todo lo que sobresale se oculte, y que no cree un scroll*/
+  overflow: hidden;
+}
+
+#sections .article {
+  margin: 10px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+#sections .date {
+  color: gray;
+  font-size: 14px;
+}
+
+#sections .stickerOne,
+#sections .stickerTwo {
+  position: absolute;
+  margin-top: -38px;
+  z-index: 0;
+}
+#sections .stickerTwo {
+  margin-left: 860px;
+}

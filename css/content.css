@@ -1,0 +1,15 @@
+/* CONTENIDO  */
+
+#content {
+  width: 1250px;
+  min-height: 1100px;
+  margin: 0px auto;
+  font-family: "Segoe UI", sans-serif, Geneva, Verdana;
+}
+
+#history {
+  float: right;
+  margin-top: 20px;
+}
+
+/* FIN CONTENIDO  */
